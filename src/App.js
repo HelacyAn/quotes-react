@@ -52,7 +52,7 @@ class RandomQuote extends React.Component {
      return( 
        <div id="wrapper">
          <div id='#quote-box'>
-           <TwitterShareButton
+  <TwitterShareButton
     url="ᅠ"
     color="#1DA1F2"
     size="40px"
@@ -70,14 +70,18 @@ class RandomQuote extends React.Component {
     // eslint-disable-next-line no-useless-concat
     caption={text + "" + " -" + author} 
     tags="react, javascript"
-  /> </div> 
+  /> 
+  </div> 
   <div style={styles.quotes} id="quote-box">
   <div id="text">
        	{text}
        <cite id="author" style={styles.quoteStyle}>-{author}</cite>
        <div>
-       <button id="new-quote" className="btn" style={styles.btn} onClick={handleChange}>New Quote</button></div></div>
-       </div></div>
+       <button id="new-quote" className="btn" style={styles.btn} onClick={handleChange}>New Quote</button>
+  </div>
+  </div>
+  </div>
+  </div>
      )
    }
 }
