@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\..\\5\\12-05"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "05-aim-game-sources",
+		"liveServer.settings.useLocalIp": true
+	}
+}
