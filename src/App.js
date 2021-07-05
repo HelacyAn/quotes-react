@@ -4,7 +4,6 @@ import quotes from 'quotesy'
 import { TumblrShareButton } from "react-simple-share";
 import { TwitterShareButton } from "react-simple-share";
 import Radium from 'radium';
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 const styles = {
   App: {
