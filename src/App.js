@@ -1,5 +1,4 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import './App.css';
 import React from 'react'
 import quotes from 'quotesy'
 import { TumblrShareButton } from "react-simple-share";
